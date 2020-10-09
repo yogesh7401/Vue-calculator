@@ -2,26 +2,26 @@
   <div>
     <h1>Calculator</h1>
     <div class='calculator' onselectstart='return false'>
-      <div class='display'>{{display}}</div>
-      <div @click='erase' class='button darker'>C</div>
-      <div @click='opp' class='button darker'>+/-</div>
-      <div @click='percent' class='button darker'>%</div>
-      <div @click='divide' class='button operator'>÷</div>
-      <div @click='append(1)' class='button'>1</div>
-      <div @click='append(2)' class='button'>2</div>
-      <div @click='append(3)' class='button'>3</div>
-      <div @click='product' class='button operator'>x</div>
-      <div @click='append(4)' class='button'>4</div>
-      <div @click='append(5)' class='button'>5</div>
-      <div @click='append(6)' class='button'>6</div>
-      <div @click='sub' class='button operator'>-</div>
-      <div @click='append(7)' class='button'>7</div>
-      <div @click='append(8)' class='button'>8</div>
-      <div @click='append(9)' class='button'>9</div>
-      <div @click='add' class='button operator'>+</div>
-      <div @click='append(0)' class='button zero button-bottom'>0</div>
-      <div @click='decimal' class='button darker button-bottom'>.</div>
-      <div @click='equal' class='button operator button-bottom'>=</div>
+      <div class='display'>{{display}}</div>                        <!-- Display -->
+      <div @click='erase' class='button darker'>C</div>             <!-- Clear the Display -->
+      <div @click='opp' class='button darker'>+/-</div>             <!-- Select operation -->
+      <div @click='percent' class='button darker'>%</div>           <!-- Give percentage value -->
+      <div @click='divide' class='button operator'>÷</div>          <!-- Divide operation -->
+      <div @click='append(1)' class='button'>1</div>                <!-- Append 1 in display -->
+      <div @click='append(2)' class='button'>2</div>                <!-- Append 2 in display -->
+      <div @click='append(3)' class='button'>3</div>                <!-- Append 3 in display -->
+      <div @click='product' class='button operator'>x</div>         <!-- Product operation -->
+      <div @click='append(4)' class='button'>4</div>                <!-- Append 4 in display -->
+      <div @click='append(5)' class='button'>5</div>                <!-- Append 5 in display -->
+      <div @click='append(6)' class='button'>6</div>                <!-- Append 6 in display -->
+      <div @click='sub' class='button operator'>-</div>             <!-- Subraction operation -->
+      <div @click='append(7)' class='button'>7</div>                <!-- Append 7 in display -->
+      <div @click='append(8)' class='button'>8</div>                <!-- Append 8 in display -->
+      <div @click='append(9)' class='button'>9</div>                <!-- Append 9 in display -->
+      <div @click='add' class='button operator'>+</div>             <!-- Add operation -->
+      <div @click='append(0)' class='button zero button-bottom'>0</div>    <!-- Append 0 in display -->
+      <div @click='decimal' class='button darker button-bottom'>.</div>    <!-- Append decimal in display -->
+      <div @click='equal' class='button operator button-bottom'>=</div>    <!-- Equal Operator -->
     </div>
   </div>
 </template>
